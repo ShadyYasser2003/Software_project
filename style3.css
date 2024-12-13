@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.content
+{
+    
+background-color:antiquewhite;
+width: 65em;
+height: 21em;
+position: relative;
+top: 5em;
+box-shadow: 7px -3px 20px 8px silver;
+}
+.sure
+{
+position: relative;
+top: 3em;
+}
+i{
+    font-size: 60px;
+    color:darkturquoise;
+}
+h1{
+    font-size: 50px;
+    color:darkturquoise;
+
+}
+p{
+font-size: 30px;
+position: relative;
+top: 1.5em;
+}
+a
+{
+    position: relative;
+    top: 2em;
+    background-color:darkturquoise;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 25%;
+    margin-bottom: 20px;
+}

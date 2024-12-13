@@ -1,0 +1,11 @@
+<?php 
+//insert user page
+include('config.php');
+if(isset($_POST['add'])){
+$NAME=$_POST['name'];
+$PRICE=$_POST['price'];
+$insert=" INSERT INTO addcard ( name , price ) VALUE('$NAME','$PRICE')";
+mysqli_query($con,$insert);
+header('location:card.php');
+}
+?>
