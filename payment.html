@@ -13,7 +13,7 @@
 
 <div class="container">
 
-    <form action="">
+    <form action="accept_project.php">
 
         <div class="row">
 
@@ -23,29 +23,29 @@
 
                 <div class="inputBox">
                     <span>full name :</span>
-                    <input type="text" placeholder="john deo">
+                    <input type="text" placeholder="john deo" required>
                 </div>
                 <div class="inputBox">
                     <span>email :</span>
-                    <input type="email" placeholder="example@example.com">
+                    <input type="email" placeholder="example@example.com"required>
                 </div>
                 <div class="inputBox">
                     <span>address :</span>
-                    <input type="text" placeholder="room - street - locality">
+                    <input type="text" placeholder="room - street - locality"required>
                 </div>
                 <div class="inputBox">
                     <span>city :</span>
-                    <input type="text" placeholder="mumbai">
+                    <input type="text" placeholder="alex"required>
                 </div>
 
                 <div class="flex">
                     <div class="inputBox">
                         <span>state :</span>
-                        <input type="text" placeholder="india">
+                        <input type="text" placeholder="Egypt"required>
                     </div>
                     <div class="inputBox">
                         <span>zip code :</span>
-                        <input type="text" placeholder="123 456">
+                        <input type="text" placeholder="123-456" required>
                     </div>
                 </div>
 
@@ -82,11 +82,28 @@
                         <input type="text" placeholder="1234">
                     </div>
                 </div>
+                <div>
+                    <button id="submit" type="submit"   style="
+                    background-color: #007BFF; 
+                    color: white; 
+                    border: none; 
+                    padding: 10px 20px; 
+                    margin-top: 10px; 
+                    border-radius: 5px; 
+                    font-size: 16px; 
+                    cursor: pointer; 
+                    transition: background-color 0.3s, transform 0.2s;
+                    position: relative;
+                    right: 50px;
+                    
+                "  >Submit</button>
+                </div>
 
             </div>
-    
+            
         </div>
-                <a href="accept_project.php" class="submit-btn">proceed to checkout</a>
+
+                <!-- <a href="accept_project.php" class="submit-btn">proceed to checkout</a> -->
     </form>
 
 </div>    
