@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // التحقق من صحة البريد الإلكتروني
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        die("Invalid email format. Please try again.");
+        die("<h1 style = 'text-align:center;'>Invalid email format. Please try again.");
     }
 
     // التحقق بناءً على الدور
@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("ss", $email, $password);
     } else {
-        die("Invalid role. Please try again.");
+        die("<h1 style = 'text-align:center;'> Invalid role. Please try again.");
     }
 
     $stmt->execute();
@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     } else {
         // في حالة بيانات غير صحيحة
-        die("بيانات تسجيل الدخول غير صحيحة. يرجى المحاولة مرة أخرى.");
+        die("<h1 style = 'text-align:center;'>بيانات تسجيل الدخول غير صحيحة. يرجى المحاولة مرة أخرى.</h1>");
     }
 
     // إغلاق الاستعلام

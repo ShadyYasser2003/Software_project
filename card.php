@@ -115,7 +115,7 @@ echo"
    ?>
     <center><br>
         <a id='aa' href="shop.php"> الرجوع الي صفحة المنتجات</a><br><br>
-        <a class="a2" href="payment.html"> تأكيد الشراء</a>
+        <a class="a2" href="payment.php"> تأكيد الشراء</a>
     </center>
 </body>
 </html>
